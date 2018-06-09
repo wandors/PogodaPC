@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Сергі Полунець'
-__versions__ = "v.5.0.7"
+__versions__ = "v.3.6.5-64"
 import os
 names = "PogodaPC"
 scripts = "PogodaPC"
 icons = "PogodaPC"
 num = 2
-path = '"C:/Program Files (x86)/Windows Kits/10/Redist/ucrt/DLLs/x86"'
-pathQt = 'C:/Python36/Lib/site-packages/PyQt5/Qt/bin'
+path = '"C:/Program Files (x86)/Windows Kits/10/Redist/ucrt/DLLs/x64"'
+pathQt = 'C:/Python36-64/Lib/site-packages/PyQt5/Qt/bin'
 if str(num) == "1":
     pacs = "--onefile --console"
 elif str(num) == "2":
