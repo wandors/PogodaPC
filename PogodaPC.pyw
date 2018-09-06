@@ -127,7 +127,7 @@ class Ui_Form(object):
             self.im = Image.open(self.paths + "11.png")
             self.pix = self.im.load()
             self.xx, self.yy = self.im.size
-            # Обработка изображения убераем белий вон и оставляем только самк картинку
+            # Обработка изображения убераем белый фон и оставляем только саму картинку
             self.x = 0
             self.y = 0
             while self.x < self.xx and self.y < self.yy:
