@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Сергі Полунець'
-__versions__ = "v.3.7.1-86"
+__versions__ = "v.3.7.2-86"
 import os
 names = "PogodaPC"
 scripts = "PogodaPC"
